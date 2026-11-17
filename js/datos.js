@@ -8,13 +8,12 @@ window.PORTFOLIO = {
     "sobre": "Este es un texto de ejemplo. Cuenta aquí quién eres, cómo trabajas y qué te interesa: tu formación, tu forma de abordar un encargo y el tipo de proyectos que buscas.\n\nCada render de este portafolio forma parte de un proceso: desde el primer volumen hasta la atmósfera final.",
     "retrato": "imagenes/estudio/retrato.jpg",
     "servicios": [
-      "Arquitectura",
+      "ARQUITECTURA",
       "Interiorismo",
-      "Visualización 3D",
-      "Dirección de arte"
+      "Visualización 3D"
     ],
-    "contactoTitulo": "",
-    "email": "hola@tuestudio.com",
+    "contactoTitulo": "ZURIEL SIERRA DELGADO",
+    "email": "ZURISIERR4@GMAIL.COM",
     "instagram": "ARQ.ZURI",
     "ciudad": "ESTADO DE MÉXICO",
     "galeria": [
