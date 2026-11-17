@@ -1,0 +1,122 @@
+PORTAFOLIO OCRE ESTUDIO
+Cómo publicarlo en internet y editarlo desde la propia página
+==============================================================
+
+La página se publica gratis en GitHub Pages. Una vez publicada, tú
+entras a tu página, pulsas «Editar página», cambias textos, subes
+proyectos e imágenes y pulsas «Publicar cambios». No hace falta
+ningún programa ni esta carpeta.
+
+Los pasos 1 a 4 se hacen UNA sola vez (unos 15 minutos).
+
+
+1. CREA TU CUENTA
+-----------------
+Entra en https://github.com y crea una cuenta gratuita.
+El nombre de usuario que elijas formará parte de la dirección de tu
+página, así que elige uno que te guste (por ejemplo: ocreestudio).
+
+
+2. CREA EL REPOSITORIO Y SUBE LA PÁGINA
+---------------------------------------
+a) Arriba a la derecha pulsa «+» y luego «New repository».
+b) Repository name: portafolio
+c) Déjalo en «Public» y pulsa «Create repository».
+d) En la pantalla siguiente pulsa el enlace «uploading an existing file».
+e) Abre esta carpeta (Portafolio OCRE Estudio), selecciona TODO lo que
+   hay dentro MENOS la carpeta «.claude» y arrástralo a la página:
+      css, imagenes, js, index.html, proyecto.html,
+      servidor.js, Abrir portafolio.bat y esta guía
+f) Espera a que termine de subir y pulsa «Commit changes».
+
+
+3. ENCIENDE LA PÁGINA
+---------------------
+a) Dentro del repositorio entra en «Settings» y luego en «Pages»
+   (menú de la izquierda).
+b) En «Branch» elige «main», deja «/ (root)» y pulsa «Save».
+c) Espera 1 o 2 minutos. Tu página estará en:
+
+      https://TU-USUARIO.github.io/portafolio/
+
+   Esa es la dirección que puedes compartir.
+
+
+4. CREA TU CLAVE DE ACCESO (TOKEN)
+----------------------------------
+Es la clave que permite a tu página guardar los cambios. Solo tú
+debes tenerla.
+
+a) Pulsa tu foto (arriba a la derecha) > «Settings».
+b) Abajo del todo en el menú izquierdo: «Developer settings».
+c) «Personal access tokens» > «Fine-grained tokens» >
+   «Generate new token».
+d) Token name: editor portafolio
+e) Expiration: elige la duración más larga que te ofrezca.
+f) Repository access: «Only select repositories» y elige «portafolio».
+g) Permissions > Repository permissions > «Contents»:
+   cámbialo a «Read and write».
+h) Pulsa «Generate token» y COPIA la clave que aparece
+   (empieza por github_pat_). Guárdala en un lugar seguro:
+   GitHub no la vuelve a mostrar.
+
+
+5. EDITAR TU PÁGINA EN LÍNEA
+----------------------------
+a) La primera vez (en cada computadora o navegador), abre tu página
+   añadiendo ?editar al final:
+
+      https://TU-USUARIO.github.io/portafolio/?editar
+
+b) Aparece una ventana. Escribe tu usuario de GitHub, el nombre del
+   repositorio (portafolio) y pega tu clave. Pulsa «Conectar».
+   A partir de ahí, en ese navegador verás siempre el botón
+   «Editar página» abajo a la derecha. Los visitantes no lo ven.
+
+c) Ya en modo edición:
+   - Textos: haz clic sobre cualquier texto y escribe.
+   - Imágenes: pasa el ratón por encima y usa «Cambiar imagen»,
+     las flechas, «Usar de portada» o «Quitar». También puedes
+     arrastrar una imagen encima.
+   - Nuevo proyecto: botón «+ Nuevo proyecto» de la barra inferior.
+     Dentro del proyecto, «+ Imágenes» para subir tus renders.
+   - En cada proyecto: «En portada», «Oculto» (borrador), ↑ ↓ para
+     ordenar y «Eliminar».
+
+d) Mientras editas, los cambios se guardan como BORRADOR en tu
+   navegador. Los visitantes aún no los ven.
+
+e) Cuando estés conforme pulsa «Publicar cambios» (se pone en rojo
+   cuando hay algo pendiente). En 1 o 2 minutos los cambios están
+   en internet.
+
+f) «Descartar» borra el borrador y vuelve a lo último publicado.
+   «Terminar» sale del modo edición.
+
+
+COSAS QUE CONVIENE SABER
+------------------------
+- El borrador vive en el navegador donde lo hiciste. Publica antes de
+  cambiar de computadora o de borrar los datos del navegador.
+- Las imágenes se reducen solas a un tamaño adecuado para web.
+  Los vídeos deben pesar menos de 45 MB.
+- Si la clave caduca, la página te pedirá conectar de nuevo: crea otra
+  clave repitiendo el paso 4.
+- No compartas la clave ni la pegues en computadoras ajenas. Si crees
+  que alguien la tiene, bórrala en GitHub (mismo lugar del paso 4) y
+  crea una nueva.
+- Desde que publicas en línea, la versión buena es la de internet.
+  Esta carpeta del Escritorio queda como copia original. Si algún día
+  quieres bajar una copia actualizada: en el repositorio pulsa
+  «Code» > «Download ZIP».
+- Aquí se editan contenidos (textos, imágenes, proyectos, servicios).
+  Los cambios de diseño (colores, tipografía, animaciones) están en
+  css/estilo.css y js/sitio.js y requieren tocar código.
+
+
+EDITAR SIN INTERNET (como hasta ahora)
+--------------------------------------
+Sigue funcionando: abre «Abrir portafolio.bat» en esta carpeta y usa
+«Editar página». Esos cambios se guardan en la carpeta, no en
+internet; para publicarlos habría que volver a subir los archivos
+al repositorio (paso 2, apartados d a f).
